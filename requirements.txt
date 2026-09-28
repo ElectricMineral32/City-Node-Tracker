@@ -17,3 +17,6 @@ qpsolvers
 scipy
 sortedcontainers
 tensorflow
+Flask
+requests
+gunicorn
