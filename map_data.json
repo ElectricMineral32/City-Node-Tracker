@@ -1,0 +1,458 @@
+{
+  "nodes": {
+    "Downtown Las Vegas": {
+      "lat": 36.1692406,
+      "lon": -115.1406688
+    },
+    "The Strip": {
+      "lat": 36.1369809,
+      "lon": -115.1616443
+    },
+    "Henderson": {
+      "lat": 36.0319602,
+      "lon": -114.9822716
+    },
+    "North Las Vegas": {
+      "lat": 36.2005191,
+      "lon": -115.1214745
+    },
+    "Summerlin": {
+      "lat": 36.1913305,
+      "lon": -115.3018851
+    },
+    "Spring Valley": {
+      "lat": 36.0865138,
+      "lon": -115.261674
+    },
+    "Enterprise": {
+      "lat": 36.0127849,
+      "lon": -115.2173341
+    },
+    "Whitney": {
+      "lat": 36.1051733,
+      "lon": -115.0419166
+    },
+    "Sunrise Manor": {
+      "lat": 36.184935,
+      "lon": -115.0278195
+    },
+    "Winchester": {
+      "lat": 36.1397715,
+      "lon": -115.1317321
+    },
+    "Boulder City": {
+      "lat": 35.9787649,
+      "lon": -114.8337574
+    },
+    "Blue Diamond": {
+      "lat": 36.0375929,
+      "lon": -115.4012827
+    },
+    "Mount Charleston": {
+      "lat": 36.2641617,
+      "lon": -115.6055241
+    },
+    "Nellis AFB": {
+      "lat": 36.2359175,
+      "lon": -115.0325043
+    },
+    "Sloan": {
+      "lat": 35.9419595,
+      "lon": -115.1921112
+    },
+    "Indian Springs": {
+      "lat": 36.5698965,
+      "lon": -115.7032941
+    },
+    "Jean": {
+      "lat": 35.7788568,
+      "lon": -115.3243823
+    },
+    "Goodsprings": {
+      "lat": 35.831883,
+      "lon": -115.4358627
+    },
+    "Pahrump": {
+      "lat": 36.204178,
+      "lon": -116.0260261
+    },
+    "Laughlin": {
+      "lat": 35.114572,
+      "lon": -114.7039223
+    },
+    "Mesquite": {
+      "lat": 36.8035642,
+      "lon": -114.067141
+    },
+    "Searchlight": {
+      "lat": 35.481282,
+      "lon": -114.9195834
+    }
+  },
+  "connections": {
+    "Downtown Las Vegas": [
+      {
+        "node": "The Strip",
+        "distance": 4.43,
+        "duration_min": 7.51
+      },
+      {
+        "node": "North Las Vegas",
+        "distance": 4.1,
+        "duration_min": 6.28
+      },
+      {
+        "node": "Sunrise Manor",
+        "distance": 13.99,
+        "duration_min": 15.59
+      },
+      {
+        "node": "Winchester",
+        "distance": 4.31,
+        "duration_min": 7.38
+      },
+      {
+        "node": "Summerlin",
+        "distance": 17.22,
+        "duration_min": 14.4
+      }
+    ],
+    "The Strip": [
+      {
+        "node": "Downtown Las Vegas",
+        "distance": 4.43,
+        "duration_min": 7.51
+      },
+      {
+        "node": "Winchester",
+        "distance": 3.61,
+        "duration_min": 5.46
+      },
+      {
+        "node": "Enterprise",
+        "distance": 17.57,
+        "duration_min": 17.88
+      },
+      {
+        "node": "Spring Valley",
+        "distance": 14.45,
+        "duration_min": 16.5
+      },
+      {
+        "node": "Henderson",
+        "distance": 24.9,
+        "duration_min": 23.62
+      }
+    ],
+    "Henderson": [
+      {
+        "node": "The Strip",
+        "distance": 24.9,
+        "duration_min": 23.62
+      },
+      {
+        "node": "Winchester",
+        "distance": 21.78,
+        "duration_min": 21.09
+      },
+      {
+        "node": "Enterprise",
+        "distance": 22.96,
+        "duration_min": 22.12
+      },
+      {
+        "node": "Whitney",
+        "distance": 10.83,
+        "duration_min": 12.48
+      },
+      {
+        "node": "Boulder City",
+        "distance": 17.98,
+        "duration_min": 20.28
+      }
+    ],
+    "North Las Vegas": [
+      {
+        "node": "Downtown Las Vegas",
+        "distance": 4.1,
+        "duration_min": 6.28
+      },
+      {
+        "node": "Summerlin",
+        "distance": 20.04,
+        "duration_min": 17.05
+      },
+      {
+        "node": "Sunrise Manor",
+        "distance": 10.5,
+        "duration_min": 12.64
+      },
+      {
+        "node": "Nellis AFB",
+        "distance": 12.03,
+        "duration_min": 21.55
+      },
+      {
+        "node": "Mesquite",
+        "distance": 126.42,
+        "duration_min": 83.47
+      }
+    ],
+    "Summerlin": [
+      {
+        "node": "Downtown Las Vegas",
+        "distance": 17.22,
+        "duration_min": 14.4
+      },
+      {
+        "node": "Spring Valley",
+        "distance": 15.91,
+        "duration_min": 18.69
+      },
+      {
+        "node": "North Las Vegas",
+        "distance": 20.04,
+        "duration_min": 17.05
+      },
+      {
+        "node": "Mount Charleston",
+        "distance": 48.13,
+        "duration_min": 49.02
+      },
+      {
+        "node": "Indian Springs",
+        "distance": 72.64,
+        "duration_min": 66.42
+      }
+    ],
+    "Spring Valley": [
+      {
+        "node": "The Strip",
+        "distance": 14.45,
+        "duration_min": 16.5
+      },
+      {
+        "node": "Summerlin",
+        "distance": 15.91,
+        "duration_min": 18.69
+      },
+      {
+        "node": "Enterprise",
+        "distance": 12.61,
+        "duration_min": 14.28
+      },
+      {
+        "node": "Whitney",
+        "distance": 22.23,
+        "duration_min": 25.5
+      },
+      {
+        "node": "Blue Diamond",
+        "distance": 20.1,
+        "duration_min": 18.13
+      }
+    ],
+    "Enterprise": [
+      {
+        "node": "The Strip",
+        "distance": 17.57,
+        "duration_min": 17.88
+      },
+      {
+        "node": "Henderson",
+        "distance": 22.96,
+        "duration_min": 22.12
+      },
+      {
+        "node": "Spring Valley",
+        "distance": 12.61,
+        "duration_min": 14.28
+      },
+      {
+        "node": "Whitney",
+        "distance": 25.79,
+        "duration_min": 26.44
+      },
+      {
+        "node": "Sloan",
+        "distance": 13.71,
+        "duration_min": 19.21
+      }
+    ],
+    "Whitney": [
+      {
+        "node": "Henderson",
+        "distance": 10.83,
+        "duration_min": 12.48
+      },
+      {
+        "node": "Spring Valley",
+        "distance": 22.23,
+        "duration_min": 25.5
+      },
+      {
+        "node": "Enterprise",
+        "distance": 25.79,
+        "duration_min": 26.44
+      },
+      {
+        "node": "Winchester",
+        "distance": 10.85,
+        "duration_min": 12.81
+      }
+    ],
+    "Sunrise Manor": [
+      {
+        "node": "Downtown Las Vegas",
+        "distance": 13.99,
+        "duration_min": 15.59
+      },
+      {
+        "node": "North Las Vegas",
+        "distance": 10.5,
+        "duration_min": 12.64
+      },
+      {
+        "node": "Nellis AFB",
+        "distance": 12.87,
+        "duration_min": 23.34
+      }
+    ],
+    "Winchester": [
+      {
+        "node": "Downtown Las Vegas",
+        "distance": 4.31,
+        "duration_min": 7.38
+      },
+      {
+        "node": "The Strip",
+        "distance": 3.61,
+        "duration_min": 5.46
+      },
+      {
+        "node": "Henderson",
+        "distance": 21.78,
+        "duration_min": 21.09
+      },
+      {
+        "node": "Whitney",
+        "distance": 10.85,
+        "duration_min": 12.81
+      }
+    ],
+    "Boulder City": [
+      {
+        "node": "Henderson",
+        "distance": 17.98,
+        "duration_min": 20.28
+      },
+      {
+        "node": "Searchlight",
+        "distance": 63.91,
+        "duration_min": 51.37
+      }
+    ],
+    "Blue Diamond": [
+      {
+        "node": "Spring Valley",
+        "distance": 20.1,
+        "duration_min": 18.13
+      },
+      {
+        "node": "Pahrump",
+        "distance": 68.26,
+        "duration_min": 51.81
+      }
+    ],
+    "Mount Charleston": [
+      {
+        "node": "Summerlin",
+        "distance": 48.13,
+        "duration_min": 49.02
+      }
+    ],
+    "Nellis AFB": [
+      {
+        "node": "Sunrise Manor",
+        "distance": 12.87,
+        "duration_min": 23.34
+      },
+      {
+        "node": "North Las Vegas",
+        "distance": 12.03,
+        "duration_min": 21.55
+      }
+    ],
+    "Sloan": [
+      {
+        "node": "Enterprise",
+        "distance": 13.71,
+        "duration_min": 19.21
+      },
+      {
+        "node": "Jean",
+        "distance": 23.38,
+        "duration_min": 23.88
+      }
+    ],
+    "Indian Springs": [
+      {
+        "node": "Summerlin",
+        "distance": 72.64,
+        "duration_min": 66.42
+      }
+    ],
+    "Jean": [
+      {
+        "node": "Sloan",
+        "distance": 23.38,
+        "duration_min": 23.88
+      },
+      {
+        "node": "Goodsprings",
+        "distance": 11.85,
+        "duration_min": 11.94
+      }
+    ],
+    "Goodsprings": [
+      {
+        "node": "Jean",
+        "distance": 11.85,
+        "duration_min": 11.94
+      }
+    ],
+    "Pahrump": [
+      {
+        "node": "Blue Diamond",
+        "distance": 68.26,
+        "duration_min": 51.81
+      }
+    ],
+    "Laughlin": [
+      {
+        "node": "Searchlight",
+        "distance": 54.05,
+        "duration_min": 83.68
+      }
+    ],
+    "Mesquite": [
+      {
+        "node": "North Las Vegas",
+        "distance": 126.42,
+        "duration_min": 83.47
+      }
+    ],
+    "Searchlight": [
+      {
+        "node": "Boulder City",
+        "distance": 63.91,
+        "duration_min": 51.37
+      },
+      {
+        "node": "Laughlin",
+        "distance": 54.05,
+        "duration_min": 83.68
+      }
+    ]
+  }
+}
