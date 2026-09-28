@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+ENV/
+
+# Project ignores
+tests/
+AI_search_autograder/
+AI_searcher_autograder/
+.github/
+.pytest_cache/
+requirements.txt
+*.json
